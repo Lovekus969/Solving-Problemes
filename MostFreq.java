@@ -19,7 +19,7 @@ public class MostFreq {
         // Step 2: Find the target with the highest frequency
         int maxFreq = 0;
         int mostFrequent = -1;
-
+//run a for each loop through the set and get the values 
         for (Map.Entry<Integer, Integer> entry : map.entrySet()) {
             if (entry.getValue() > maxFreq) {
                 maxFreq = entry.getValue();
