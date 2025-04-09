@@ -42,6 +42,17 @@ public class Knapsacnk{
          }
          System.out.println(knapsack(val,wt,Total_weight,val.length,dp));
             
+        // ⏱️ Start time
+        long startTime = System.nanoTime();
+
+        int result = knapsack(val, wt, Total_weight, val.length, dp);
+
+        // ⏱️ End time
+        long endTime = System.nanoTime();
+
+        // 🖨️ Output results
+        System.out.println("Maximum Profit: " + result);
+        System.out.println("Execution Time: " + (endTime - startTime) / 1_000_000.0 + " ms");
          }
 
     }
