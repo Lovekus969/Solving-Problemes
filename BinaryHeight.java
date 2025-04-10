@@ -21,8 +21,8 @@ public class BinaryHeight{
     //     int ans = Math.max(leftpart, Rightpart)+1;
     //     return ans;
     // }
-    public static int countNodes(Node root){
-        //base case 
+    public static int countNodes(Node root){//Works as post order Traversal 
+        //base case                         // left right root O(N)
         if(root==null){
             return 0;
         }
