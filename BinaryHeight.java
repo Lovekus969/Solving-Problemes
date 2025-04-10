@@ -10,16 +10,28 @@
     }
 }
 public class BinaryHeight{
-    public static int treeHeight(Node root){
+    // public static int treeHeight(Node root){
+    //     //base case 
+    //     if(root ==null){
+    //         return 0;
+    //     }
+    //     int leftpart =treeHeight(root.left);
+    //     int Rightpart = treeHeight(root.right);
+
+    //     int ans = Math.max(leftpart, Rightpart)+1;
+    //     return ans;
+    // }
+    public static int countNodes(Node root){
         //base case 
-        if(root ==null){
+        if(root==null){
             return 0;
         }
-        int leftpart =treeHeight(root.left);
-        int Rightpart = treeHeight(root.right);
+        int Left_Count = countNodes(root.left);
+        int Right_Count = countNodes(root.right);
 
-        int ans = Math.max(leftpart, Rightpart)+1;
-        return ans;
+        int ans = Left_Count+Right_Count+1;
+
+        return  ans;  
     }
     public static void main(String[] args){
         Node root = new Node(3);
@@ -27,6 +39,6 @@ public class BinaryHeight{
         root.right = new Node(1);
         root.right.left =new Node(4);
         root.right.right =new Node(5);
-       System.out.println("Height is "+ treeHeight(root));
+       System.out.println("Count is "+ countNodes(root));
     }
 }
