@@ -19,7 +19,14 @@ public class Knap{
                         dp[i][j] = dp[i-1][j];
                     }
                 }
+            } // Print DP Table
+        System.out.println("\nDP Table:");
+        for (int i = 0; i <= n; i++) {
+            for (int j = 0; j <= W; j++) {
+                System.out.print(dp[i][j] + "\t");
             }
+            System.out.println();
+        } 
             return dp[n][W];
     }
 
