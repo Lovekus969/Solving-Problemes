@@ -19,20 +19,45 @@ public class Knap{
                         dp[i][j] = dp[i-1][j];
                     }
                 }
-            } // Print DP Table
+            }
+            // Print DP Table
         System.out.println("\nDP Table:");
         for (int i = 0; i <= n; i++) {
             for (int j = 0; j <= W; j++) {
                 System.out.print(dp[i][j] + "\t");
             }
             System.out.println();
-        } 
+        }
             return dp[n][W];
     }
+    //coin change problem 
+    public static int coinChange(int coins[], int sum ){
+        int n = coins.length;
+        int dp[][]= new int[n+1][sum+1];
+        // here initalise for the first col when i have sum 0 i have one way simple gave nothing 
+        for( int i=0 ; i< n+1; i++){ // i----> coin 
+                dp[i][0] = 1;
 
+        }//second loop for the initialse when i have 0 coin and sum is more than it so 0 ways 
+        for( int j=0 ; j< sum+1; j++){
+                dp[0][j] = 0;
+        }//O(n*sum)
+        //here run the main part for the unbounded similar variation 
+        for( int i=1; i< n+1; i++){
+            for( int j=1; j<sum+1;j++){
+               //cheack for validity 
+               if(coins[i-1]<=j){
+                dp[i][j] = dp[i][j-coins[i-1]]+dp[i-1][j];  // inc + exc
+               }else {
+                    dp[i][j] = dp[i-1][j];                   
+               }
+            }
+        }
+        return dp[n][sum];
+    }
     public static void main(String[] args){
-        int val[]= { 15,14,10,45,30};
-        int wt[] = {2,5,1,3,4};
-        System.out.println(" "+ unboundedKnap(val, wt, 7));
+       int coin[] ={ 1,2,3};
+       int sum = 4;//ans 4
+       System.out.println(" total ways :"+ coinChange(coin, sum));
     }
 }
