@@ -1,7 +1,6 @@
 
 public class Merging{
- public static void mergeSort(int[] arr, int left, int right) {  //O(n log n) time complexity  N+N for sorting additionally hower for applying binary approch get half each time equal to logn 
-  
+ public static void mergeSort(int[] arr, int left, int right) {
         if (left < right) {
             // Find the middle point
             int mid = (left + right) / 2;
