@@ -17,3 +17,39 @@ A simple Java simulation of a BMW M8 Competition custom build with turbo upgrade
 4. **Adjust RPM** with `increaseRPM(int)` and `decreaseRPM(int)` while the engine is on.
 5. **Honk** anytime with `honk()`.
 6. **Stop** the engine with `stopEngine()`.
+
+
+ Quick Descriptions:
+1️⃣ Climbing Stairs (k steps at a time)
+You can take 1 to k steps at a time. How many ways to reach the top of n stairs?
+
+✅ Use: Recursion → Memoization → Tabulation
+🛠 Similar to: Dice Throw, Frog Jump, Min Steps to N
+
+2️⃣ House Robber II
+Same as House Robber I but now houses are in a circle.
+
+✅ Use: Break into two subproblems: 0 to n-2 and 1 to n-1.
+⛓ Test of handling circular array constraints in DP.
+
+3️⃣ Max Sum of Non-Adjacent Elements
+Given an array, return max sum of elements with no two adjacent selected.
+
+🧠 Same logic as House Robber I.
+✅ Use DP: dp[i] = max(dp[i-1], arr[i] + dp[i-2])
+
+4️⃣ Jump Game I & II
+You are at index 0 and can jump arr[i] steps forward. Can you reach the end?
+
+Jump Game I → Just check if possible ✅
+
+Jump Game II → Minimum jumps needed ✅
+
+📈 Good combo of Greedy + DP thinking
+🔥 FAANG love asking this.
+
+5️⃣ Partition Equal Subset Sum
+Can you split the array into two subsets with equal sum?
+
+✅ Convert it to 0/1 Knapsack problem
+dp[i][sum] = true/false
