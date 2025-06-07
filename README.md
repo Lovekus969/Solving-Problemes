@@ -53,3 +53,22 @@ Can you split the array into two subsets with equal sum?
 
 ✅ Convert it to 0/1 Knapsack problem
 dp[i][sum] = true/false
+
+
+Move for today Topics to Cover :
+Basic Queue (Array/LinkedList Implementation)
+
+Operations: enqueue, dequeue, peek, isEmpty
+
+Time Complexity
+
+Circular Queue
+
+Queue Using Two Stacks
+
+Sliding Window Maximum (Monotonic Queue) [🔥 FAANG Favorite]
+
+BFS using Queue (Graph traversal)
+
+Real-life Problem:
+👉 Design a Ticket Booking System using Queue logic
