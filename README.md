@@ -41,34 +41,14 @@ Given an array, return max sum of elements with no two adjacent selected.
 4️⃣ Jump Game I & II
 You are at index 0 and can jump arr[i] steps forward. Can you reach the end?
 
-Jump Game I → Just check if possible ✅
 
-Jump Game II → Minimum jumps needed ✅
-
-📈 Good combo of Greedy + DP thinking
-🔥 FAANG love asking this.
-
-5️⃣ Partition Equal Subset Sum
-Can you split the array into two subsets with equal sum?
-
-✅ Convert it to 0/1 Knapsack problem
-dp[i][sum] = true/false
-
-
-Move for today Topics to Cover :
-Basic Queue (Array/LinkedList Implementation)
-
-Operations: enqueue, dequeue, peek, isEmpty
-
-Time Complexity
-
-Circular Queue
-
-Queue Using Two Stacks
-
-Sliding Window Maximum (Monotonic Queue) [🔥 FAANG Favorite]
-
-BFS using Queue (Graph traversal)
-
-Real-life Problem:
-👉 Design a Ticket Booking System using Queue logic
+Why Use Java?
+Java works on different platforms (Windows, Mac, Linux, Raspberry Pi, etc.)
+It is one of the most popular programming languages in the world
+It has a large demand in the current job market
+It is easy to learn and simple to use
+It is open-source and free
+It is secure, fast and powerful
+It has huge community support (tens of millions of developers)
+Java is an object oriented language which gives a clear structure to programs and allows code to be reused, lowering development costs
+As Java is close to C++ and C#, it makes it easy for programmers to switch to Java or vice versa
