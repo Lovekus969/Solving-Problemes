@@ -1,5 +1,5 @@
-Cocept to master today 
-Two Pointer and Sliding Window 
+Concept to master today 
+Two Pointers and Sliding Windows 
 
  Quick Descriptions:
 1️⃣ Climbing Stairs (k steps at a time)
