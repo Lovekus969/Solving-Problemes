@@ -19,3 +19,7 @@ Example: In factorial, n == 0 || n == 1 is the base case.
 What is a Recursive Case?
       A recursive case is the part of a recursive algorithm where the problem is reduced into one or more smaller subproblems of the same type, and the function calls itself       to solve those subproblems.
 Example: In factorial, n * factorial(n - 1) is the recursive case.
+
+What is Call Stack Behavior?
+      The call stack is a runtime data structure that keeps track of active function calls. In recursion, each call creates a new stack frame storing parameters, local          variables, and the return address.
+This consumes O(depth) space, where depth is the maximum recursion depth.
