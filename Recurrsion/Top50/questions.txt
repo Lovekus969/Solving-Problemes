@@ -34,7 +34,15 @@ Input: 1 2 3 4 5
 Output: 3
 Explanation: The sum of elements (15) divided by the number of elements (5) gives the mean: 3
 : intution neeed the sum first then divide by the total number of element 
+
 Q4 Find the sum of firest N numbers using recursion 
       Intution: First cheack the base case if the base case hit then return otherwise untill an dunless call the functinon recursively and try to get the sum for the sum of that index and less than that one more 
+
+Q5 find the Binray form from decimal : 
+
+Intution is easy use the logic of recurrsion which syas in the base case if n==0 then return 
+      otherwise call function and say dectoBinary(n/2) ==> everytime half : go to the base case then prind the reminder 
+                                          system.out.println(n%2) .. here the Binary form goes ..
+
 
 
