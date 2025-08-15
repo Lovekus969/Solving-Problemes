@@ -1,1 +1,18 @@
+
 Q1 You are given an integer n. Print numbers from 1 to n without the help of loops.
+Ans : intution : 
+
+The last call before hitting the base case is what triggers the “unwinding” of the recursion.
+All the earlier calls are paused, waiting for the inner calls to finish.
+Once the base case is reached, each paused call resumes in reverse order, executing the System.out.println (or print) statements.
+For n = 10:
+      printAscending(10) → waits
+              printAscending(9) → waits
+                        printAscending(1) → calls printAscending(0) → base case reached → returns
+        
+
+          Now printAscending(1) prints 1
+          Then printAscending(2) prints 2
+              …
+
+Finally, printAscending(10) prints 10
