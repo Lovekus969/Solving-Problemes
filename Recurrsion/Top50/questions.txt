@@ -45,3 +45,5 @@ Intution is easy use the logic of recurrsion which syas in the base case if n==0
                                           system.out.println(n%2) .. here the Binary form goes ..
 
 Q6 : Sum of array elements using recursion
+
+Q7 : Print reverse of a string using recursion
