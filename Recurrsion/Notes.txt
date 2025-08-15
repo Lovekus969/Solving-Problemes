@@ -1,0 +1,10 @@
+                                                                                      Recursion & Backtracking
+
+Concepts to cover:
+              Recursion tree & base cases =>> Backtracking pattern (choose → explore → unchoose)
+    Why important: 
+              Forms the mental base for DP, tree traversal, N-Queens, and permutations.
+Key problems:
+                        N-Queens
+                        Subset generation
+                        Rat in a maze / Path finding
