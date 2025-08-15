@@ -44,5 +44,4 @@ Intution is easy use the logic of recurrsion which syas in the base case if n==0
       otherwise call function and say dectoBinary(n/2) ==> everytime half : go to the base case then prind the reminder 
                                           system.out.println(n%2) .. here the Binary form goes ..
 
-
-
+Q6 : Sum of array elements using recursion
