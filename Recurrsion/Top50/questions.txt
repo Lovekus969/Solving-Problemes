@@ -16,3 +16,7 @@ For n = 10:
               …
 
 Finally, printAscending(10) prints 10
+
+Part 2 : Deceding way 
+                  Tail recursion: you do the action before the recursive call.
+                  This means the current number is printed immediately, and the recursive call handles the smaller problem afterward.
