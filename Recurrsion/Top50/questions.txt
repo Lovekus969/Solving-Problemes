@@ -20,3 +20,7 @@ Finally, printAscending(10) prints 10
 Part 2 : Deceding way 
                   Tail recursion: you do the action before the recursive call.
                   This means the current number is printed immediately, and the recursive call handles the smaller problem afterward.
+      In tail recursion / descending order:
+            There’s no priority given to the recursive call.
+            The function first executes whatever comes first in the code — in this case, System.out.print(n).
+            Only after printing does it make the recursive call to handle the smaller problem (n-1).
