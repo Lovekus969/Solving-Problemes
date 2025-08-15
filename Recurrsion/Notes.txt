@@ -23,3 +23,7 @@ Example: In factorial, n * factorial(n - 1) is the recursive case.
 What is Call Stack Behavior?
       The call stack is a runtime data structure that keeps track of active function calls. In recursion, each call creates a new stack frame storing parameters, local          variables, and the return address.
 This consumes O(depth) space, where depth is the maximum recursion depth.
+
+What is Time Complexity Awareness?
+    Time complexity in recursion depends on how many recursive calls are made and the work done per call. Naive recursion can lead to exponential complexity when      overlapping subproblems are recomputed (e.g., Fibonacci). O(2^n)
+Optimizing with memoization (caching results) or bottom-up dynamic programming reduces complexity to polynomial or better.
