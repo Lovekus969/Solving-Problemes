@@ -35,4 +35,6 @@ Output: 3
 Explanation: The sum of elements (15) divided by the number of elements (5) gives the mean: 3
 : intution neeed the sum first then divide by the total number of element 
 Q4 Find the sum of firest N numbers using recursion 
+      Intution: First cheack the base case if the base case hit then return otherwise untill an dunless call the functinon recursively and try to get the sum for the sum of that index and less than that one more 
+
 
