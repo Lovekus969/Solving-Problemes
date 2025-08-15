@@ -34,4 +34,5 @@ Input: 1 2 3 4 5
 Output: 3
 Explanation: The sum of elements (15) divided by the number of elements (5) gives the mean: 3
 : intution neeed the sum first then divide by the total number of element 
+Q4 Find the sum of firest N numbers using recursion 
 
