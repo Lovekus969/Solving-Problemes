@@ -10,6 +10,6 @@ public class SumArrayFromLast {
         int[] arr = {2, 4, 6, 8, 10};
         int n = arr.length;
 
-        System.out.println("Sum of array: " + sumArray(arr, n - 1));
+        System.out.println("Sum of array: " + sumArray(arr, n - 1));       // at index n-1 = > arr.length-1 so this is last index and it goes recurssively unitll it hits the base case then it add into as recursison do 
     }
 }
