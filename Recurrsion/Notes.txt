@@ -11,3 +11,7 @@ Key problems:
 
 What is Recursion? 
 Recursion is a programming technique in which a function solves a problem by breaking it down into smaller subproblems of the same type and calling itself with updated parameters until it reaches a well-defined base case.
+
+What is Base Case ?
+    A base case is the simplest possible instance of a problem that can be solved directly without further recursion. It prevents infinite recursion by acting as the             termination condition for recursive calls.
+Example: In factorial, n == 0 || n == 1 is the base case.
