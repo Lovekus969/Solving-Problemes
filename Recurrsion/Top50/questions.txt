@@ -24,3 +24,6 @@ Part 2 : Deceding way
             There’s no priority given to the recursive call.
             The function first executes whatever comes first in the code — in this case, System.out.print(n).
             Only after printing does it make the recursive call to handle the smaller problem (n-1).
+
+Q.5 . Print n to 1 without loop
+- > You are given an integer n. Print numbers from n to 1 without the help of loops.
