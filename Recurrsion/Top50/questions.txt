@@ -66,3 +66,10 @@ Problem Name:
 Q10  Sum of Digits of a Number Using Recursion? 
 Intution : 
        first cheack the base case if digit ==0 then return 0 otherwise get the last digit by taking modulus and sum up with the division by getting the last digit and recurrsively it goes untill it hits the base case . 
+
+Q11 What is Tail recurrsion ?
+
+      Tail Recursion is a special form of recursion where the recursive call is the last operation executed in the function.
+No pending computation is left after the recursive call returns. This allows the compiler/runtime (if it supports Tail Call Optimization, TCO) to reuse the current function’s stack frame instead of creating a new one.
+
+      As a result, tail recursion can achieve the time efficiency of recursion with the space efficiency of iteration.
