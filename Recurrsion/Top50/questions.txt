@@ -62,3 +62,5 @@ The idea is simple:
  Base case:        If the string is empty, its length is 0.
  Recursive case:     Count 1 for the first character, then recursively count the length of the rest of the string                                by calling the function on str.substring(1).
                   This continues until the string becomes empty, and the recursive calls add up to give the total length.
+Problem Name:
+Q10  Sum of Digits of a Number Using Recursion
