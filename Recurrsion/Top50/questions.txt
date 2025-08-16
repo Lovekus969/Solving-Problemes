@@ -63,4 +63,6 @@ The idea is simple:
  Recursive case:     Count 1 for the first character, then recursively count the length of the rest of the string                                by calling the function on str.substring(1).
                   This continues until the string becomes empty, and the recursive calls add up to give the total length.
 Problem Name:
-Q10  Sum of Digits of a Number Using Recursion
+Q10  Sum of Digits of a Number Using Recursion? 
+Intution : 
+       first cheack the base case if digit ==0 then return 0 otherwise get the last digit by taking modulus and sum up with the division by getting the last digit and recurrsively it goes untill it hits the base case . 
