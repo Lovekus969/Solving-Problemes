@@ -78,3 +78,6 @@ Q12 ..Find the first n Fibonacci numbers?
             F(n)=F(n−1)+F(n−2)
 
 Q13: Find the Factorial of a Number? 
+                              Compute the factorial of a number n:
+                                    n!=n×(n−1)×(n−2)×⋯×1            
+                              Example: 5! = 5 × 4 × 3 × 2 × 1 = 120
