@@ -47,3 +47,11 @@ Intution is easy use the logic of recurrsion which syas in the base case if n==0
 Q6 : Sum of array elements using recursion
 
 Q7 : Print reverse of a string using recursion
+
+Q8 : Find Length of a String Using Recursion
+Instead of using built-in functions like .length(), we can determine the length of a string by counting characters one by one through recursion.
+The idea is simple:
+
+ Base case:        If the string is empty, its length is 0.
+ Recursive case:     Count 1 for the first character, then recursively count the length of the rest of the string                                by calling the function on str.substring(1).
+                  This continues until the string becomes empty, and the recursive calls add up to give the total length.
