@@ -73,3 +73,6 @@ Q11 What is Tail recurrsion ?
 No pending computation is left after the recursive call returns. This allows the compiler/runtime (if it supports Tail Call Optimization, TCO) to reuse the current function’s stack frame instead of creating a new one.
 
       As a result, tail recursion can achieve the time efficiency of recursion with the space efficiency of iteration.
+Q12 ..Find the first n Fibonacci numbers?
+      here we use this formula Internally >>
+            F(n)=F(n−1)+F(n−2)
