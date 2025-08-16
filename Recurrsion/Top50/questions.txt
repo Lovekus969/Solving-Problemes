@@ -76,3 +76,5 @@ No pending computation is left after the recursive call returns. This allows the
 Q12 ..Find the first n Fibonacci numbers?
       here we use this formula Internally >>
             F(n)=F(n−1)+F(n−2)
+
+Q13: Find the Factorial of a Number? 
