@@ -84,3 +84,5 @@ Q13: Find the Factorial of a Number?
 Q14 Find using Recursive Programs to get the Minimum and Maximum elements of the array ?
 
 Q15 Find whether the string is a palindrome or not ?
+
+Q16 Find the set of bits  of a number using Recursion?
