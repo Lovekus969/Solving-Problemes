@@ -86,3 +86,9 @@ Q14 Find using Recursive Programs to get the Minimum and Maximum elements of the
 Q15 Find whether the string is a palindrome or not ?
 
 Q16 Find the set of bits  of a number using Recursion?
+intution : Its easy just check out the & with the number 1 or we can say take the bitwise And and then add up the right most valeue by saying 
+                  return n & 1 + function(n>>1)  // to get the last bit and then add up  the right-most vlaue 
+                  n & 1 → extracts the last bit (right-most bit) of n.
+                  If last bit = 1, result is 1.
+                  If last bit = 0, result is 0.
+                  n >> 1 → shifts the number right by 1, essentially removing the last bit (like dividing by 2 and flooring).
