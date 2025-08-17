@@ -13,6 +13,8 @@ public class PalindromeCheck {
         // Recursive call moving towards the center
         return isPalindrome(str, left + 1, right - 1);
     }
+    //First, all recursive calls are made (going deeper).
+//Then, when the base case is hit, the recursion starts returning results back up the call stack.
 
     public static void main(String[] args) {
         String s1 = "madam";
