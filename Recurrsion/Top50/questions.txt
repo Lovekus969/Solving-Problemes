@@ -82,3 +82,5 @@ Q13: Find the Factorial of a Number?
                                     n!=n×(n−1)×(n−2)×⋯×1            
                               Example: 5! = 5 × 4 × 3 × 2 × 1 = 120
 Q14 Find using Recursive Programs to get the Minimum and Maximum elements of the array ?
+
+Q15 Find whether the string is a palindrome or not ?
