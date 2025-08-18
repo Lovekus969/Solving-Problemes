@@ -97,5 +97,6 @@ Q17 : Reverse the linklist by using the recursion
       Intutuion ...
       easy moove toward the end when it hit the base case then cheack recursively and said head.next.next = head 
             then head.next = null
+Cheackout the file from top 50 
 
                   
