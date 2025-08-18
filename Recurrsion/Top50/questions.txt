@@ -92,3 +92,10 @@ intution : Its easy just check out the & with the number 1 or we can say take th
                   If last bit = 1, result is 1.
                   If last bit = 0, result is 0.
                   n >> 1 → shifts the number right by 1, essentially removing the last bit (like dividing by 2 and flooring).
+Q17 : Reverse the linklist by using the recursion 
+
+      Intutuion ...
+      easy moove toward the end when it hit the base case then cheack recursively and said head.next.next = head 
+            then head.next = null
+
+                  
