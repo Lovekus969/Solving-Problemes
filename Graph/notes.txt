@@ -1,0 +1,5 @@
+Graph
+What is DFS (Depth-First Search)?
+
+DFS is a graph/tree traversal algorithm.
+It explores as far as possible along one branch before backtracking.
