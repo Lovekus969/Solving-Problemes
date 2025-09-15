@@ -1,3 +1,15 @@
+What is a Graph in DSA?
+    A graph is a data structure that consists of:
+    Vertices (nodes) → represent entities.
+    Edges (links) → represent relationships between nodes.
+
+Formally, a graph is represented as:
+                                 G = (V, E)
+where:
+        V = set of vertices
+        E = set of edges
+
+📌 Types of Graphs
 Graph
 What is DFS (Depth-First Search)?
 
