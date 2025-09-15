@@ -28,6 +28,19 @@ Cyclic vs Acyclic
 Connected vs Disconnected
                             Connected: there is a path between every pair of nodes.
                             Disconnected: some nodes cannot be reached from others=
+
+
+Graph Representation
+
+Graphs are usually stored in two main ways:
+                                                Adjacency Matrix :=>>     A 2D array where matrix[u][v] = 1 (or weight) if an edge exists.
+            Easy to check edge existence.
+                Space: O(V^2).
+    Adjacency List
+                        Each node stores a list of its neighbors.
+        Space efficient for sparse graphs.
+                                            Space: O(V + E).
+👉 In coding interviews, adjacency list is more common.
 Graph
         What is DFS (Depth-First Search)?
 
