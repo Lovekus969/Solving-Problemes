@@ -41,7 +41,18 @@ Graphs are usually stored in two main ways:
         Space efficient for sparse graphs.
                                             Space: O(V + E).
 👉 In coding interviews, adjacency list is more common.
-Graph
+        Graph Traversal Algorithms
+                                                            BFS (Breadth-First Search)
+
+                    Uses queue(BFS)
+                                        Explores level by level.
+                                        Good for shortest path in unweighted graphs.
+                                                            
+                                                            DFS (Depth-First Search)                    
+                                        
+                                        Uses stack (or recursion)
+                                        Goes as deep as possible before backtracking.
+                                        Used in cycle detection, path finding, topological sorting.
         What is DFS (Depth-First Search)?
 
 DFS is a graph/tree traversal algorithm.
