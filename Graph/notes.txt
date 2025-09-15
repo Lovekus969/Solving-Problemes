@@ -10,8 +10,26 @@ where:
         E = set of edges
 
 📌 Types of Graphs
+
+Types of Graphs
+
+    Directed vs Undirected
+                            Directed: edges have direction (A → B).
+                            Undirected: edges are bidirectional (A — B).
+
+Weighted vs Unweighted
+                            Weighted: edges have costs/weights (like distance).
+                            Unweighted: all edges have same weight.
+                            
+Cyclic vs Acyclic
+                            Cyclic: contains at least one cycle.
+                            Acyclic: no cycles (e.g., DAG → Directed Acyclic Graph).
+
+Connected vs Disconnected
+                            Connected: there is a path between every pair of nodes.
+                            Disconnected: some nodes cannot be reached from others=
 Graph
-What is DFS (Depth-First Search)?
+        What is DFS (Depth-First Search)?
 
 DFS is a graph/tree traversal algorithm.
 It explores as far as possible along one branch before backtracking.
