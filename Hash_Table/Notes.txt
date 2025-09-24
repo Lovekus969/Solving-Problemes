@@ -37,3 +37,12 @@ Hash Map
                                         | Language         | Any language                | Java only                                                  |
                                         | Thread Safety    | Depends on implementation   | Not synchronized (use `ConcurrentHashMap` for thread-safe) |
                                         | Null keys/values | Depends on implementation   | 1 null key, multiple null values                           |
+
+
+What is a Key?
+                
+                A key is a unique identifier used to access data in a hash table.
+                
+                The hash function converts the key into an index in the array.
+                
+                Think of it like a roll number in a classroom → it uniquely identifies each student.
