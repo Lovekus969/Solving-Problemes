@@ -17,3 +17,15 @@ Hash Table
         Can be implemented in any language (C, Java, Python, etc.).
         
         Not language-specific.
+
+Hash Map
+
+        A specific implementation of a hash table (mostly known from Java).
+        
+        In Java, HashMap<K, V> is a built-in class.
+        
+        Allows null keys and null values (HashTable class in Java does not).
+        
+        Not thread-safe (unless wrapped with synchronization).
+        
+        Provides many features like iteration over keys, values, and entries.
