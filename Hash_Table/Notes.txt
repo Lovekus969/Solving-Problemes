@@ -29,3 +29,11 @@ Hash Map
         Not thread-safe (unless wrapped with synchronization).
         
         Provides many features like iteration over keys, values, and entries.
+
+                                                                                Hash table vs Hash Map 
+                                        | Feature          | Hash Table (concept)        | Hash Map (Java implementation)                             |
+                                        | ---------------- | --------------------------- | ---------------------------------------------------------- |
+                                        | Definition       | General data structure idea | Java class (`java.util.HashMap`)                           |
+                                        | Language         | Any language                | Java only                                                  |
+                                        | Thread Safety    | Depends on implementation   | Not synchronized (use `ConcurrentHashMap` for thread-safe) |
+                                        | Null keys/values | Depends on implementation   | 1 null key, multiple null values                           |
