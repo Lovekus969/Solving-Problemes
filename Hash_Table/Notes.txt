@@ -1,0 +1,7 @@
+🔹 What is a Hash Table?
+
+A hash table is a data structure that stores key-value pairs.
+
+It uses a hash function to convert a key into an index in an array.
+
+This makes search, insert, and delete operations very fast (average O(1)).
