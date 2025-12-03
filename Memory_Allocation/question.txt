@@ -54,6 +54,13 @@ FAANG loves this one because many engineers get it wrong.
 malloc(10)
 calloc(10, 1)
 
+| Feature        | malloc()              | calloc()                    |
+| -------------- | --------------------- | --------------------------- |
+| Initialization | ❌ garbage             | ✔ zero-initialized          |
+| Speed          | faster                | slightly slower             |
+| Usage          | malloc(n * size)      | calloc(count, size)         |
+| Typical Use    | buffers, unknown data | arrays, clean memory needed |
+
 
 And why is this important in real systems (like Google search index or Netflix streaming buffers)?
 
