@@ -1,0 +1,5 @@
+Q1. What does this code print? Why?
+
+int *p = malloc(sizeof(int));
+*p = 10;
+printf("%d\n", *(p + 1));
