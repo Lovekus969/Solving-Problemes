@@ -3,3 +3,98 @@ Q1. What does this code print? Why?
 int *p = malloc(sizeof(int));
 *p = 10;
 printf("%d\n", *(p + 1));
+Hint:
+*(p + 1) means you jump 4 bytes forward, but you did not allocate it.
+
+What will happen?
+
+Q2. What’s wrong with this code?
+int *p = malloc(5 * sizeof(int));
+for(int i = 0; i <= 5; i++) {
+    p[i] = i;
+}
+
+
+Spot the bug like an interviewer.
+
+🔸 Q3. Predict the output:
+int *p = malloc(3 * sizeof(int));
+p[0] = 10;
+p[1] = 20;
+p[2] = 30;
+
+free(p);
+
+printf("%d\n", p[1]);
+
+
+Will it:
+
+print 20?
+
+crash?
+
+unpredictable?
+
+still work?
+Explain.
+
+🔸 Q4. Correct way to resize memory? (Tricky)
+
+What is the safe way to write this:
+
+p = realloc(p, 100 * sizeof(int));
+
+
+without risking a memory leak?
+
+FAANG loves this one because many engineers get it wrong.
+
+🔸 Q5. What is the difference between these?
+malloc(10)
+calloc(10, 1)
+
+
+And why is this important in real systems (like Google search index or Netflix streaming buffers)?
+
+🔸 Q6. Why is this code dangerous?
+int *p = malloc(sizeof(int));
+free(p);
+free(p);
+
+
+What EXACTLY happens?
+
+🔸 Q7. Why is this code leaking memory?
+int *p = malloc(20);
+p = malloc(20);
+
+
+This is one of the fastest ways to fail a FAANG memory question.
+
+🔸 Q8. What does this print?
+char *s = malloc(5);
+strcpy(s, "Hello");
+printf("%s\n", s);
+
+
+Spot the hidden bug.
+
+🔸 Q9. Why is this wrong even though it compiles?
+int *p;
+*p = 100;
+printf("%d", *p);
+
+
+This is a classic FAANG trick question.
+
+🔸 Q10. What will happen here?
+int *p = malloc(4);
+*p = 100;
+*(p + 1) = 200;   // ????
+
+
+How many bytes did you allocate?
+How many bytes are you writing?
+
+This question tests memory boundaries and pointer arithmetic.
